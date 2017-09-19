@@ -3,7 +3,7 @@
 let gulp = require('gulp'),
     scss = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
-    pug = require('gulp-pug'),
+    // pug = require('gulp-pug'),
     plumber = require('gulp-plumber'),
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
