@@ -1,8 +1,8 @@
 <?php define('PAGE', 'index');
 include_once "header.php";
-include_once "footer.php";
+
 ?>
-<main>
+<!-- <main>
 	<div class="container">
 		<div class="image"></div>
 		<div class="about">
@@ -14,7 +14,7 @@ include_once "footer.php";
 	</div>
 </main>
 <!-- авторизация -->
-<div id="auth">
+<!-- <div id="auth">
 	<div class="close">&#10006;</div>
 		<h2>Авторизация</h2>
 	<form action="">
@@ -22,11 +22,11 @@ include_once "footer.php";
 		<input type="password" placeholder="введите пароль" id="authPass"><br>
 		<input type="submit" value="войти" id="authButton">
 	</form>
-</div>
+</div> -->
 <!-- авторизация -->
 
 <!-- регистрация -->
-<div id="reg">
+<!-- <div id="reg">
 	<div class="close">&#10006;</div>
 		<h2>Регистрация</h2>
 	<form action="">
@@ -34,6 +34,9 @@ include_once "footer.php";
 		<input type="password" placeholder="введите пароль" id="regPass1"><br>
 		<input type="password" placeholder="повторите пароль" id="regPass2"><br>
 		<input type="submit" value="зарегистрироваться" id="regButton">
-	</form>
-</div>
-<!-- регистрация -->
+	</form> -->
+<!-- </div>
+регистрация -->
+<?php 
+include_once "footer.php";
+?>

@@ -22,23 +22,49 @@ h2{
 
 header{
 
+	menu{
+		background-color: black;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		.container{
+			width: 960px;
+			margin:0 auto;
+
+		
+			
 	h1{
 		color: white;
 		display: inline-block;
 		line-height: 50px;
 	}
-	background-color: #1c1c1c;
-	height: 50px;
-	margin: 0 auto;
-	top: 0;
-	
-	a{
-		color: #fff;
-		text-decoration: none;
-		padding-left: 10px;
-		float: right;
-		line-height: 50px;
+	.menu_close{
+	display: none;
 	}
+	.big_menu{
+		display: block;
+		color: white;
+		position: absolute;
+		top:0;
+		right: 0;
+		line-height: 50px;
+		text-decoration: none;
+		
+
+		a{
+			color: white;
+			padding-left: 10px;
+			text-decoration: none;
+
+			
+		}
+		a:last-child{
+			padding-right: 10px;
+		}
+	}
+
+	}
+}
 }
 
 main{
